@@ -6,3 +6,5 @@ This is a script written to clean data for the knot-theoretic database KnotInfo 
 2) Outputs the SQP/QP braid words in a clean, uniform format: the braid itself is surrounded by braces ("{}"), and any maximal SQP or QP bands are also surrounded by braces. Also, if a SQP/QP word is the mirror of the word in the corresponding "Braid Notation" column, then it is prefixed by an "M".
 
 Prior to this cleanup, several errors were found in positivity information in the KnotInfo database. These errors have since been found and corrected. Moreover, braids had previously been entered with a wide-variety of formatting styles; this script uniformizes this format. The mirror-image information had also not previously been recorded.
+
+The hard code is contained in the notebook "braid_clean". For a pseudocode explanation of all subroutines, see the .pdf "braid_clean_pseudocode".
